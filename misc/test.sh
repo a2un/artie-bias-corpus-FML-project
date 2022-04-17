@@ -1,8 +1,8 @@
 #!/bin/bash
 
-python3 -m venv /tmp/venv
+#virtualenv /tmp/venv
 source /tmp/venv/bin/activate
-pip install -r ../requirements.txt
+pip3 install -r ../requirements.txt
 
 echo "BEGIN *SINGLE* MODEL TESTS"
 #single model success
